@@ -1,0 +1,70 @@
+body {
+    background: #eee;
+}
+
+.form {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+
+}
+
+.form1 {
+    max-width: 450px;
+    padding: 20px 20px 40px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 20px 1px black;
+}
+
+.form label {
+    float: left;
+    width: 120px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Roboto", sans-serif;
+}
+
+
+.form input {
+    float: left;
+    width: 250px;
+    font-size: 16px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#h {
+    margin-left: 100px;
+    text-transform: uppercase;
+    color: #ff0000;
+    font-size: 30px;
+    font-family: "Times New Roman";
+}
+
+
+.button {
+    margin-left: 120px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #ff0000;
+    width: 250px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form form button:hover {
+    background: green;
+}
+
+
+.form input[type="text"]:focus, input[type="password"]:focus {
+    outline: 2px solid green;
+}

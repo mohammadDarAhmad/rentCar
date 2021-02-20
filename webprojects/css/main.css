@@ -1,0 +1,122 @@
+h1, h2, h3, nav, footer {
+ font-family: 'Merriweather', serif; 
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+
+input:foucs
+{
+    background-color:blue;
+}
+
+legend {
+
+   background-color: #263238  ;
+   color: white;
+   text-align: center;
+   display: block;
+ padding: 10px;
+   word-spacing: 4px;
+   width: 80%;
+ 
+
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+
+}
+
+
+div#searchBox { 
+ 
+    margin: 0.25em auto;
+     background-color: #dcdcdc;
+    padding: 1em;
+    border: 1.5pt solid #a5a5a5;
+    width: 90%;
+     }
+div#paintingBox { 
+   margin: 0.25em auto;
+    background-color: #EEEEEE;
+    margin: 0.25em auto;
+    padding: 1em;
+    border: 1.5pt solid #a5a5a5;
+        width: 90%;
+   
+}
+div#settingsBox
+{
+    margin: 0.2em auto;
+    background-color: #dcdcdc;
+    padding: 1em;
+    border: 1.5pt solid #a5a5a5;
+       width: 90%;
+}
+
+
+table thead {
+   background-color: #E0E0E0 ;
+    
+}
+
+caption { 
+   background-color: #263238;
+
+}
+
+
+
+tr#BoxNNN{
+  background-color: #e0e0e0;
+}
+
+caption {
+    background-color: #263238;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+   table {
+   align-items: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+     margin: 0.25em auto;
+     width: 100%
+}
+td{
+  padding: 8px;
+
+}
+
+table td {
+    border-top: 1pt solid #616161;;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0.5em 0.75em;
+}
+
+tbody > div
+{
+    border-top: 1pt solid #616161;;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0.5em 0.75em;
+}
+table th {
+    text-align: left;
+    padding: 0.25em 0.75em;
+
+}
+thead th{
+   background-color: rgb(211,211,211);
+}
+
+thead
+{
+    text-align: left;
+    padding: 0.25em 0.75em;
+}
